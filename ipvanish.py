@@ -75,7 +75,7 @@ class IPVanishManager:
                 response = requests.get(
                     f"{self.ipguide_url}{ip}",
                     timeout=10,
-                    headers={'User-Agent': 'IPVanishManager/1.0'}
+                    headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
                 )
                 response.raise_for_status()
                 if subnet := response.json().get('network', {}).get('cidr'):
