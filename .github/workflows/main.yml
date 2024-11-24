@@ -38,7 +38,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add ipvanish_ips.csv ipvanishsubnets.csv
+          git add -A
           git diff-index --quiet HEAD || git commit -m "[AUTO] update IPs $(date '+%Y-%m-%d %H:%M:%S')"
           
       - name: Push changes
