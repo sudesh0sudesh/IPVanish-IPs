@@ -3542,3 +3542,7 @@
 2025-01-02 21:18:03,324 - ERROR - Attempt 2 failed to get servers: 403 Client Error: Forbidden for url: https://configs.ipvanish.com/openvpn/v2.6.0-0/configs.zip
 2025-01-02 21:18:08,349 - ERROR - Attempt 3 failed to get servers: 403 Client Error: Forbidden for url: https://configs.ipvanish.com/openvpn/v2.6.0-0/configs.zip
 2025-01-02 21:18:08,349 - ERROR - No servers found. Exiting.
+2025-01-02 22:18:16,375 - ERROR - Attempt 1 failed to get servers: 403 Client Error: Forbidden for url: https://configs.ipvanish.com/openvpn/v2.6.0-0/configs.zip
+2025-01-02 22:18:21,415 - ERROR - Attempt 2 failed to get servers: 403 Client Error: Forbidden for url: https://configs.ipvanish.com/openvpn/v2.6.0-0/configs.zip
+2025-01-02 22:18:26,454 - ERROR - Attempt 3 failed to get servers: 403 Client Error: Forbidden for url: https://configs.ipvanish.com/openvpn/v2.6.0-0/configs.zip
+2025-01-02 22:18:26,454 - ERROR - No servers found. Exiting.
